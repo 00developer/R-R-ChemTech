@@ -2115,9 +2115,37 @@ a:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible
   }
 }
 
-@media (max-width: 1100px) {
+/* Compact desktop view for tablet landscape & phone desktop-mode (951px - 1150px) */
+@media (max-width: 1150px) and (min-width: 951px) {
   .brand img {
-    height: 68px;
+    height: 56px;
+  }
+  .menu {
+    gap: 12px;
+  }
+  .nl {
+    gap: 9px;
+    font-size: 13px;
+  }
+  .menu .nb {
+    padding: 8px 14px;
+    font-size: 12.5px;
+  }
+  .hh {
+    gap: 24px;
+  }
+  .hero-left {
+    flex: 1 1 420px;
+  }
+  .ed {
+    flex: 0 1 330px;
+  }
+}
+
+/* Tablet portrait & Mobile view (<= 950px) */
+@media (max-width: 950px) {
+  .brand img {
+    height: 60px;
   }
   .nav {
     flex-wrap: nowrap !important;
@@ -2129,8 +2157,8 @@ a:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible
     display: none;
     position: absolute;
     top: calc(100% - 6px);
-    left: 32px;
-    right: 32px;
+    left: 24px;
+    right: 24px;
     flex-direction: column;
     padding: 12px 20px 20px;
     border: 1px solid rgba(212, 175, 55, .35);
@@ -2173,12 +2201,6 @@ a:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible
     margin-top: 16px;
     width: 100%;
   }
-  .g4 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 1000px) {
   .hero {
     min-height: auto;
     background: 
@@ -2192,6 +2214,9 @@ a:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 36px;
+  }
+  .g4 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

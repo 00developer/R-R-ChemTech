@@ -170,6 +170,13 @@
     * **Harmonized Micro-Interactions:** Re-architected product card image styling (`.pi::before` pseudo-element with `z-index: -2` and `overflow: hidden`) so hovering over any product card (`Rice`, `Wheat`, `Onion`) activates a smooth `scale(1.08)` zoom with gentle brightness & saturation boost (`filter: brightness(1.06) saturate(1.15)`).
     * **Seamless Visual Consistency:** Matches the exact fluid motion curve (`cubic-bezier(0.16, 1, 0.3, 1)`) and timing used across the Farm-to-Port Journey gallery cards and Global Export Footprint corridor decks.
     * **Text Stability:** Retains static dark emerald scrim gradient (`.pi::after` with `z-index: -1`) and text shadows, ensuring product labels ("Rice", "Wheat", "Onion") stay perfectly crisp without jitter or layout shift during the zoom transition.
+20. **Phone Desktop Mode (980px) & Tablet Landscape Parity:**
+    * **Lowered Mobile Breakpoint:** Adjusted desktop threshold from `1100px`/`1000px` down to `950px`.
+    * **Full Desktop Experience at 980px:** When mobile users toggle "Desktop site" on Chrome (which emulates a standard `980px` viewport), the site now preserves the full laptop experience:
+      - Navbar displays all horizontal links and the "Request a Quote" button without triggering the mobile hamburger icon.
+      - Hero section retains side-by-side symmetry (left headline/CTA and right interactive Export Desk card).
+      - Landscape seaport background image is retained without vertical clipping.
+    * **Portrait Mobile Protection:** Standard mobile phones (< 950px) continue to smoothly activate the vertical layout, hamburger drawer, and portrait hero photography.
 
 ---
 
