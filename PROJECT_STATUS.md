@@ -33,12 +33,9 @@
 ---
 
 ## 3. Brand Assets & Logo Inventory
-* **Primary Corporate Logo (Header & Footer):**
-  * `images/R&R-ChemTech-Gold-Emblem-final-Logo.png`
-  * Dimensions: `2172 x 724` px (3:1 aspect ratio), transparent background.
-  * Design: Circular green & gold emblem (R&R monogram, globe, laurels) + "R&R ChemTech Pvt. Ltd." gold serif text.
-  * Desktop Header Height: `82px` (`object-fit: contain`).
-  * Desktop Footer Height: `86px` (`object-fit: contain`).
+* **Primary Corporate Logo:**
+  * **Header Logo:** `images/logo01.png` (Dimensions: `2168 x 725` px, 3:1 aspect ratio, converted from opaque checkerboard to high-precision transparent PNG with 3D embossed gold "R&R ChemTech" lettering and luxury gold emblem).
+  * **Footer Logo:** `images/R&R-ChemTech-Gold-Emblem-final-Logo.png` (Dimensions: `2172 x 724` px, transparent background with "R&R ChemTech Pvt. Ltd.").
 * **Favicon:** `images/favicon.svg`
 * **Product Imagery:**
   * `images/rice.webp` (Rice product card)
