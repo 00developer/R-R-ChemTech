@@ -2131,6 +2131,14 @@ a:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible
     padding: 8px 14px;
     font-size: 12.5px;
   }
+  .hero {
+    min-height: clamp(540px, 56.25vw, 640px);
+    justify-content: space-between;
+    padding-bottom: 28px;
+  }
+  .hero-body {
+    padding: 16px 0;
+  }
   .hh {
     gap: 24px;
   }
@@ -2139,6 +2147,18 @@ a:focus-visible, input:focus-visible, select:focus-visible, button:focus-visible
   }
   .ed {
     flex: 0 1 330px;
+  }
+}
+
+/* Portrait orientation protection for phone desktop-mode (prevents 2000px vertical stretch) */
+@media (orientation: portrait) and (min-width: 951px) {
+  .hero {
+    min-height: clamp(540px, 56.25vw, 640px);
+    justify-content: space-between;
+    padding-bottom: 28px;
+  }
+  .hero-body {
+    padding: 16px 0;
   }
 }
 

@@ -177,6 +177,10 @@
       - Hero section retains side-by-side symmetry (left headline/CTA and right interactive Export Desk card).
       - Landscape seaport background image is retained without vertical clipping.
     * **Portrait Mobile Protection:** Standard mobile phones (< 950px) continue to smoothly activate the vertical layout, hamburger drawer, and portrait hero photography.
+21. **Phone Desktop Mode 16:9 Hero Height Clamp:**
+    * **Issue Addressed:** When phone users switch Chrome to "Desktop site", the physical vertical screen height created an extreme ~2,100px viewport, which forced `background-size: cover` to zoom the 16:9 landscape image 2.5x and crop out the left sunset and right port cranes.
+    * **Fix Applied:** In `@media (max-width: 1150px) and (min-width: 951px)` and `@media (orientation: portrait) and (min-width: 951px)`, `.hero` height is clamped to `clamp(540px, 56.25vw, 640px)` (where `56.25vw` is the exact 16:9 mathematical aspect ratio).
+    * **Result:** The 16:9 hero background image fits the container with virtually zero crop, displaying the full panorama (sunset, seaport, cargo ship, and produce) alongside side-by-side headline and Export Desk.
 
 ---
 
