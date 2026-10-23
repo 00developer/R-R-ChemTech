@@ -1,0 +1,966 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>R &amp; R ChemTech | Premium Agro Import &amp; Export</title>
+  <meta name="description" content="R &amp; R ChemTech sources and ships rice, wheat and onion to importers across the globe, with consistent quality and dependable delivery.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=2.5">
+
+  <!-- Structured Data: Organization & Agro Products (Schema.org JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "R & R ChemTech",
+    "url": "https://www.rrchemtech.com/",
+    "logo": "https://www.rrchemtech.com/images/R&R-ChemTech-Gold-Emblem-final-Logo.png",
+    "description": "Global agro-commodity export company specializing in premium Rice, Wheat, and Fresh Onions.",
+    "email": "contact@rrchemtech.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "India"
+    }
+  }
+  </script>
+</head>
+<body>
+
+<div class="pg">
+
+  <!-- ==================== HERO SECTION (100vh) ==================== -->
+  <header class="hero">
+    <div class="nav-wrap">
+      <div class="w nav">
+        <a class="brand" href="#" aria-label="R &amp; R ChemTech home">
+          <img src="images/R&R-ChemTech-Gold-Emblem-final-Logo.png" alt="R &amp; R ChemTech Pvt. Ltd." width="216" height="72">
+        </a>
+        <input type="checkbox" id="mt" class="mt" aria-label="Toggle navigation menu">
+        <label for="mt" class="mb" aria-label="Open navigation menu">
+          <span></span><span></span><span></span>
+        </label>
+        <nav class="menu" aria-label="Main Navigation">
+          <div class="nl">
+            <a href="#" class="active">Home</a>
+            <a href="#products">Products</a>
+            <a href="#export">Process</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#markets">Markets</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <a class="btn nb" href="#contact">Request a Quote</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="hero-body">
+      <div class="w">
+        <div class="hh">
+          <div class="hero-left">
+            <p class="eye">Agro import &amp; export</p>
+            <h1 class="h hero-title">Premium grains,<br><span>delivered worldwide.</span></h1>
+            <p class="mut hero-desc">R &amp; R ChemTech sources and ships rice, wheat and onion to importers across the globe, with consistent quality and dependable delivery.</p>
+            <div class="hb">
+              <a class="btn" href="#products">Explore Products</a>
+              <a class="btn2" href="#export">Our Export Process</a>
+            </div>
+          </div>
+          <div class="card ed">
+            <div class="ed-header">
+              <p class="eye">Export desk</p>
+              <span class="ed-subhint">Click commodity for spot CIF/FOB quote</span>
+            </div>
+            <button type="button" class="ed-row ed-row-btn" data-commodity="Rice" onclick="openQuickModal('Rice')" aria-haspopup="dialog" aria-label="Enquire about Rice export">
+              <span class="ed-name">Rice</span>
+              <span class="ed-status">
+                <span class="pulse-dot"></span>Open for enquiry
+                <span class="ed-arrow" aria-hidden="true">↗</span>
+              </span>
+            </button>
+            <button type="button" class="ed-row ed-row-btn" data-commodity="Wheat" onclick="openQuickModal('Wheat')" aria-haspopup="dialog" aria-label="Enquire about Wheat export">
+              <span class="ed-name">Wheat</span>
+              <span class="ed-status">
+                <span class="pulse-dot"></span>Open for enquiry
+                <span class="ed-arrow" aria-hidden="true">↗</span>
+              </span>
+            </button>
+            <button type="button" class="ed-row ed-row-btn" data-commodity="Onion" onclick="openQuickModal('Onion')" aria-haspopup="dialog" aria-label="Enquire about Onion export">
+              <span class="ed-name">Onion</span>
+              <span class="ed-status">
+                <span class="pulse-dot"></span>Open for enquiry
+                <span class="ed-arrow" aria-hidden="true">↗</span>
+              </span>
+            </button>
+            <div class="ed-row ed-ports-row">
+              <span class="ed-ports-label">Ports</span>
+              <span class="ed-ports-list">Mundra · JNPT · Kandla · Chennai</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== KEY METRICS & TRUST STRIP ==================== -->
+  <section class="trust-bar-sec" aria-label="Key export statistics">
+    <div class="w">
+      <div class="gs" id="statsBanner">
+        <div>
+          <div class="h stat-num"><span class="counter" data-target="25">25</span>+</div>
+          <div class="stat-label">Countries served</div>
+        </div>
+        <div>
+          <div class="h stat-num"><span class="counter" data-target="15">15</span>+</div>
+          <div class="stat-label">Years in trade</div>
+        </div>
+        <div>
+          <div class="h stat-num"><span class="counter" data-target="120">120</span>K+</div>
+          <div class="stat-label">Tonnes shipped</div>
+        </div>
+        <div>
+          <div class="h stat-num"><span class="counter" data-target="3">3</span></div>
+          <div class="stat-label">Core commodities</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PRODUCTS SECTION ==================== -->
+  <section id="products" class="sec">
+    <div class="w">
+      <p class="eye">Our products</p>
+      <h2 class="h sec-title">Three staples. One standard of quality.</h2>
+      <div class="grid g3">
+        <!-- Rice Card -->
+        <article class="pc">
+          <div class="pi h pr">Rice</div>
+          <div class="pb">
+            <p class="mut">Premium rice for retail and bulk buyers.</p>
+            <ul>
+              <li><strong>Varieties:</strong> 1121 Basmati, Golden Sella, IR64, Parboiled</li>
+              <li><strong>Packing:</strong> 10kg, 25kg, 50kg Bags</li>
+              <li><strong>MOQ:</strong> 1x20ft FCL (25 MT)</li>
+            </ul>
+          </div>
+        </article>
+        <!-- Wheat Card -->
+        <article class="pc">
+          <div class="pi h pw">Wheat</div>
+          <div class="pb">
+            <p class="mut">Clean, graded wheat from trusted sources.</p>
+            <ul>
+              <li><strong>Grades:</strong> Milling Wheat, Durum Grade A</li>
+              <li><strong>Packing:</strong> 50kg Bags / Bulk</li>
+              <li><strong>MOQ:</strong> 1x20ft FCL (26 MT)</li>
+            </ul>
+          </div>
+        </article>
+        <!-- Onion Card -->
+        <article class="pc">
+          <div class="pi h po">Onion</div>
+          <div class="pb">
+            <p class="mut">Fresh onions, sorted and packed for export.</p>
+            <ul>
+              <li><strong>Types:</strong> Red &amp; Pink Nashik Onions</li>
+              <li><strong>Size:</strong> 45mm – 60mm+</li>
+              <li><strong>MOQ:</strong> 1x40ft Reefer (29 MT)</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== IMPORT & EXPORT PROCESS ==================== -->
+  <section id="export" class="sec2">
+    <div class="w">
+      <div class="process-header">
+        <p class="eye">Import &amp; export</p>
+        <h2 class="h sec-title">From source to port, handled end to end.</h2>
+        <p class="mut process-lead">We manage sourcing, inspection, packing and documentation, so your shipment arrives on time and as specified.</p>
+      </div>
+      <div class="grid g4">
+        <div class="card step-card">
+          <div class="num">01</div>
+          <h3 class="h step-title">Sourcing</h3>
+          <p class="mut">Direct from vetted farms and mills.</p>
+        </div>
+        <div class="card step-card">
+          <div class="num">02</div>
+          <h3 class="h step-title">Quality check</h3>
+          <p class="mut">Grading and inspection before dispatch.</p>
+        </div>
+        <div class="card step-card">
+          <div class="num">03</div>
+          <h3 class="h step-title">Packing</h3>
+          <p class="mut">Export-grade packaging to your spec.</p>
+        </div>
+        <div class="card step-card">
+          <div class="num">04</div>
+          <h3 class="h step-title">Shipping</h3>
+          <p class="mut">Documentation, freight and tracking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY / OPERATIONS IN ACTION ==================== -->
+  <section id="gallery" class="sec gallery-sec">
+    <div class="w">
+      <div class="gallery-header">
+        <span class="eye">Farm to Port Journey</span>
+        <h2 class="h sec-title">From Harvest to Global Ports, <span style="color: var(--color-gold);">In Every Frame.</span></h2>
+        <p class="mut gallery-lead">
+          A visual perspective of our agricultural partnerships, hygienic sorting, certified export packaging, modern warehousing, and seaport logistics.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- 01: Rice Fields -->
+        <div class="gallery-card">
+          <div class="gallery-thumb">
+            <span class="gallery-tag">Paddy Cultivation</span>
+            <img src="images/gallery-rice.jpg" alt="Lush green terraced rice paddy fields in rural India" loading="lazy" width="600" height="450">
+          </div>
+          <div class="gallery-body">
+            <h3 class="h gallery-title">Basmati Rice Cultivation</h3>
+            <p class="gallery-desc">Direct agricultural partnership with certified paddy growers across northern fertile basins.</p>
+          </div>
+        </div>
+
+        <!-- 02: Wheat Harvesting -->
+        <div class="gallery-card">
+          <div class="gallery-thumb">
+            <span class="gallery-tag">Grain Harvest</span>
+            <img src="images/gallery-wheat.jpg" alt="Golden wheat field harvest with tractor under warm sunlight" loading="lazy" width="600" height="450">
+          </div>
+          <div class="gallery-body">
+            <h3 class="h gallery-title">Golden Wheat Harvest</h3>
+            <p class="gallery-desc">Clean, machine-harvested milling and durum wheat grains selected for high protein consistency.</p>
+          </div>
+        </div>
+
+        <!-- 03: Onion Sorting -->
+        <div class="gallery-card">
+          <div class="gallery-thumb">
+            <span class="gallery-tag">Grading &amp; Sorting</span>
+            <img src="images/gallery-onion.jpg" alt="Freshly harvested Nashik red onions sorted in wooden crates and mesh bags" loading="lazy" width="600" height="450">
+          </div>
+          <div class="gallery-body">
+            <h3 class="h gallery-title">Nashik Red Onion Sorting</h3>
+            <p class="gallery-desc">Export-grade sizing (45mm to 60mm+), breathable mesh bag packaging, and strict defect checks.</p>
+          </div>
+        </div>
+
+        <!-- 04: Modern Warehouse -->
+        <div class="gallery-card">
+          <div class="gallery-thumb">
+            <span class="gallery-tag">Storage &amp; Pallets</span>
+            <img src="images/gallery-warehouse.jpg" alt="Modern clean warehouse with neatly stacked export grain sacks on wooden pallets" loading="lazy" width="600" height="450">
+          </div>
+          <div class="gallery-body">
+            <h3 class="h gallery-title">Palletized Warehousing</h3>
+            <p class="gallery-desc">Hygienic, moisture-controlled dry storage with export-grade woven polypropylene and jute sacks.</p>
+          </div>
+        </div>
+
+        <!-- 05: Port Loading -->
+        <div class="gallery-card">
+          <div class="gallery-thumb">
+            <span class="gallery-tag">Ocean Logistics</span>
+            <img src="images/gallery-port.jpg" alt="Commercial container shipping terminal with gantry cranes and large cargo vessel" loading="lazy" width="600" height="450">
+          </div>
+          <div class="gallery-body">
+            <h3 class="h gallery-title">Seaport Container Dispatch</h3>
+            <p class="gallery-desc">Direct vessel stuffing and container clearance at Mundra, JNPT, and Kandla port terminals.</p>
+          </div>
+        </div>
+
+        <!-- 06: Customer Handover -->
+        <div class="gallery-card">
+          <div class="gallery-thumb">
+            <span class="gallery-tag">Verified Handover</span>
+            <img src="images/gallery-delivery.jpg" alt="Successful cargo delivery handshake between logistics manager and international buyer" loading="lazy" width="600" height="450">
+          </div>
+          <div class="gallery-body">
+            <h3 class="h gallery-title">Delivery &amp; Compliance Sign-off</h3>
+            <p class="gallery-desc">On-time consignment delivery with verified SGS/FSSAI inspection certificates and documentation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== MARKETS WE SERVE ==================== -->
+  <section id="markets" class="sec markets-sec">
+    <div class="w">
+      <div class="markets-header">
+        <span class="eye">Global Export Footprint</span>
+        <h2 class="h sec-title">Connecting Indian Farmlands to <span style="color: var(--color-gold);">Global Seaports.</span></h2>
+        <p class="mut markets-lead">
+          We operate reliable containerized and bulk shipment corridors from India's premier maritime gateways (JNPT, Mundra, Kandla, Chennai) to strategic food security hubs across 4 major international trade regions.
+        </p>
+      </div>
+
+      <div class="markets-grid">
+        <!-- Region 1: Middle East & GCC -->
+        <div class="card market-card">
+          <div class="market-bg" style="background-image: url('images/port-gcc.jpg');"></div>
+          <div class="market-card-header">
+            <span class="market-icon">🌍</span>
+            <div class="market-region-meta">
+              <span class="market-badge">Primary Corridor</span>
+              <h3 class="h market-title">Middle East &amp; GCC</h3>
+            </div>
+          </div>
+          <div class="market-transit">
+            <span class="transit-icon">⚡</span>
+            <span>Ocean Transit: <strong>4 – 7 Days</strong></span>
+          </div>
+          <div class="market-ports-block">
+            <span class="market-subhead">Key Seaports:</span>
+            <div class="port-chips">
+              <span class="port-chip">Jebel Ali</span>
+              <span class="port-chip">Dammam</span>
+              <span class="port-chip">Jeddah</span>
+              <span class="port-chip">Sohar</span>
+              <span class="port-chip">Hamad</span>
+              <span class="port-chip">Shuwaikh</span>
+            </div>
+          </div>
+          <div class="market-commodities-block">
+            <span class="market-subhead">Core Commodities:</span>
+            <p class="market-desc">1121 Basmati, Golden Sella, Nashik Red Onions (Reefer), Durum Wheat.</p>
+          </div>
+          <div class="market-compliance">
+            <span>✓ Halal Certified</span>
+            <span>✓ SASO &amp; ESMA Compliant</span>
+          </div>
+        </div>
+
+        <!-- Region 2: Southeast Asia & Far East -->
+        <div class="card market-card">
+          <div class="market-bg" style="background-image: url('images/port-seasia.jpg');"></div>
+          <div class="market-card-header">
+            <span class="market-icon">🌏</span>
+            <div class="market-region-meta">
+              <span class="market-badge">High Volume</span>
+              <h3 class="h market-title">Southeast Asia</h3>
+            </div>
+          </div>
+          <div class="market-transit">
+            <span class="transit-icon">⚡</span>
+            <span>Ocean Transit: <strong>8 – 14 Days</strong></span>
+          </div>
+          <div class="market-ports-block">
+            <span class="market-subhead">Key Seaports:</span>
+            <div class="port-chips">
+              <span class="port-chip">Port Klang</span>
+              <span class="port-chip">Penang</span>
+              <span class="port-chip">Ho Chi Minh</span>
+              <span class="port-chip">Tanjung Priok</span>
+              <span class="port-chip">Singapore</span>
+            </div>
+          </div>
+          <div class="market-commodities-block">
+            <span class="market-subhead">Core Commodities:</span>
+            <p class="market-desc">IR64 Non-Basmati Parboiled, Milling Wheat, Broken Rice.</p>
+          </div>
+          <div class="market-compliance">
+            <span>✓ Phytosanitary Certified</span>
+            <span>✓ Moisture-Guard Container Staging</span>
+          </div>
+        </div>
+
+        <!-- Region 3: Africa & Red Sea -->
+        <div class="card market-card">
+          <div class="market-bg" style="background-image: url('images/port-africa.jpg');"></div>
+          <div class="market-card-header">
+            <span class="market-icon">🌍</span>
+            <div class="market-region-meta">
+              <span class="market-badge">Bulk Shipments</span>
+              <h3 class="h market-title">Africa &amp; Red Sea</h3>
+            </div>
+          </div>
+          <div class="market-transit">
+            <span class="transit-icon">⚡</span>
+            <span>Ocean Transit: <strong>12 – 18 Days</strong></span>
+          </div>
+          <div class="market-ports-block">
+            <span class="market-subhead">Key Seaports:</span>
+            <div class="port-chips">
+              <span class="port-chip">Mombasa</span>
+              <span class="port-chip">Dar es Salaam</span>
+              <span class="port-chip">Djibouti</span>
+              <span class="port-chip">Port Sudan</span>
+              <span class="port-chip">Lome</span>
+              <span class="port-chip">Cotonou</span>
+            </div>
+          </div>
+          <div class="market-commodities-block">
+            <span class="market-subhead">Core Commodities:</span>
+            <p class="market-desc">Non-Basmati White Rice (5%/25%), Milling Wheat, Pink Onions.</p>
+          </div>
+          <div class="market-compliance">
+            <span>✓ SGS &amp; BV Inspection</span>
+            <span>✓ Break-Bulk &amp; 20ft FCL</span>
+          </div>
+        </div>
+
+        <!-- Region 4: Europe & Mediterranean -->
+        <div class="card market-card">
+          <div class="market-bg" style="background-image: url('images/port-europe.jpg');"></div>
+          <div class="market-card-header">
+            <span class="market-icon">🌐</span>
+            <div class="market-region-meta">
+              <span class="market-badge">Strict Quality</span>
+              <h3 class="h market-title">Europe &amp; Med</h3>
+            </div>
+          </div>
+          <div class="market-transit">
+            <span class="transit-icon">⚡</span>
+            <span>Ocean Transit: <strong>18 – 24 Days</strong></span>
+          </div>
+          <div class="market-ports-block">
+            <span class="market-subhead">Key Seaports:</span>
+            <div class="port-chips">
+              <span class="port-chip">Rotterdam</span>
+              <span class="port-chip">Felixstowe</span>
+              <span class="port-chip">Antwerp</span>
+              <span class="port-chip">Mersin</span>
+              <span class="port-chip">Valencia</span>
+            </div>
+          </div>
+          <div class="market-commodities-block">
+            <span class="market-subhead">Core Commodities:</span>
+            <p class="market-desc">Pesticide-Controlled Basmati, Durum Wheat, Graded Agro Produce.</p>
+          </div>
+          <div class="market-compliance">
+            <span>✓ Strict EU MRL Compliance</span>
+            <span>✓ Non-GMO &amp; Traceability Verified</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WHY R&R CHEMTECH ==================== -->
+  <section id="why-us" class="lt">
+    <div class="w">
+      <p class="eye">Why R &amp; R ChemTech</p>
+      <h2 class="h sec-title">Trade Built on Trust, Quality <span style="color: var(--color-gold);">&amp; Long-term Partnerships.</span></h2>
+      
+      <div class="grid g4">
+        <div class="card commitment-card">
+          <span class="commitment-num">01</span>
+          <h3 class="h commitment-title">Quality First</h3>
+          <p class="mut commitment-desc">Keeping uncompromised quality and certified standards at the centre of our approach. APEDA, FSSAI &amp; SGS inspection compliant.</p>
+        </div>
+        <div class="card commitment-card">
+          <span class="commitment-num">02</span>
+          <h3 class="h commitment-title">Trust &amp; Transparency</h3>
+          <p class="mut commitment-desc">Building relationships through open communication, ethical conduct, and clear CIF / FOB contract terms under Incoterms 2020.</p>
+        </div>
+        <div class="card commitment-card">
+          <span class="commitment-num">03</span>
+          <h3 class="h commitment-title">Reliable Supply</h3>
+          <p class="mut commitment-desc">Ensuring dependable sourcing, scalable capacity, and timely port delivery for repeat orders. 5,000+ MT monthly handling capacity.</p>
+        </div>
+        <div class="card commitment-card">
+          <span class="commitment-num">04</span>
+          <h3 class="h commitment-title">Growth Through Collaboration</h3>
+          <p class="mut commitment-desc">Creating sustainable opportunities and expanding horizons through mutually rewarding, long-term trade partnerships.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT US SECTION ==================== -->
+  <section id="about" class="about-sec">
+    <div class="w">
+      <div class="about-header">
+        <span class="eye">About R &amp; R ChemTech</span>
+        <h2 class="h sec-title">Building Trust Through Quality, <span style="color: var(--color-gold);">Connecting Markets Through Trade.</span></h2>
+        <p class="mut about-lead">
+          At <strong>R &amp; R ChemTech</strong>, we believe that strong business relationships begin with trust, quality, and a commitment to excellence. With a dedicated focus on agro-based trade and chemical solutions, we connect global enterprises with reliable sourcing opportunities and dependable supply partnerships.
+        </p>
+      </div>
+
+      <!-- Vision & Mission Grid -->
+      <div class="about-vm-grid">
+        <div class="card vm-card">
+          <span class="vm-badge">Our Vision</span>
+          <h3 class="h vm-title">Global Trust &amp; Lasting Partnerships</h3>
+          <p class="mut vm-text">
+            To become a premier, globally trusted name in agro-based trade and chemical solutions by fostering enduring partnerships and delivering consistent, unmatched value.
+          </p>
+        </div>
+        <div class="card vm-card">
+          <span class="vm-badge">Our Mission</span>
+          <h3 class="h vm-title">Quality Sourcing &amp; Transparent Execution</h3>
+          <p class="mut vm-text">
+            To connect businesses with dependable trade opportunities through rigorous quality-focused sourcing, crystal-clear communication, and responsive, customer-oriented service.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FREQUENTLY ASKED QUESTIONS ==================== -->
+  <section id="faq" class="sec faq-sec">
+    <div class="w">
+      <div class="faq-split-layout">
+        
+        <!-- Left Column: Sticky Header & Trade Desk Support Card (38%) -->
+        <div class="faq-left">
+          <span class="eye">Trade Information &amp; Answers</span>
+          <h2 class="h sec-title">Frequently Asked <span style="color: var(--color-gold);">Questions.</span></h2>
+          <p class="mut faq-lead">
+            Direct clarity on Incoterms 2020, third-party quality inspections, accepted payment terms, packaging flexibility, and vessel schedules for international commodity importers.
+          </p>
+
+          <!-- Floating Trade Desk Support Card -->
+          <div class="card faq-support-card">
+            <span class="support-badge">Direct Trade Assistance</span>
+            <h3 class="h support-title">Have a Specific Cargo or Tender Inquiry?</h3>
+            <p class="support-desc">
+              Can't find your exact destination port or grain specification? Our international trade desk is on call to provide tailored feasibility and instant spot CIF rates.
+            </p>
+            <div class="support-actions">
+              <a href="https://wa.me/919065413960?text=Hello%20R%26R%20ChemTech%20Trade%20Desk,%20I%20have%20an%20export%20enquiry." target="_blank" rel="noopener noreferrer" class="btn btn-support-wa">
+                <span class="wa-icon">💬</span> Chat on WhatsApp
+              </a>
+              <a href="mailto:contact@rrchemtech.com?subject=Export%20Enquiry%20-%20R%26R%20ChemTech" class="btn2 btn-support-email">
+                <span class="mail-icon">✉️</span> Email Trade Desk
+              </a>
+            </div>
+            <span class="support-note">⚡ Trade desk response within 2 hours · Direct WhatsApp / Call</span>
+          </div>
+        </div>
+
+        <!-- Right Column: 6 Stacked Accordions (62%) -->
+        <div class="faq-right">
+          <div class="faq-accordion" id="faqAccordion">
+            <!-- Item 1 -->
+            <div class="faq-item active">
+              <button type="button" class="faq-trigger" aria-expanded="true">
+                <span class="faq-question">What Incoterms 2020 delivery terms do you support?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-body">
+                  <p>We primarily quote and execute shipments under <strong>CIF (Cost, Insurance and Freight)</strong> and <strong>FOB (Free on Board)</strong> terms from major Indian loading seaports including <strong>JNPT (Nhava Sheva), Mundra, Kandla, and Chennai</strong>. We also support <strong>CFR (Cost &amp; Freight)</strong> or customized container staging upon buyer request.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" aria-expanded="false">
+                <span class="faq-question">What third-party quality inspection and certifications are provided?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-body">
+                  <p>Every consignment undergoes mandatory pre-dispatch testing. We provide official third-party inspection certificates from <strong>SGS, Bureau Veritas (BV), or Intertek</strong> verifying grain length, broken percentage, purity, moisture levels, and weight. All shipments include official <strong>APEDA, FSSAI, Phytosanitary, Certificate of Origin, and Fumigation certificates</strong>.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" aria-expanded="false">
+                <span class="faq-question">What are your accepted international payment terms?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-body">
+                  <p>For verified international importers, government tenders, and institutional trade desks, our standard payment terms are:
+                  <br>• <strong>100% Irrevocable Letter of Credit (L/C at Sight)</strong> opened through a prime top-tier international bank.
+                  <br>• <strong>Telegraphic Transfer (T/T)</strong>: 30% advance deposit with order confirmation, and the 70% balance against clean onboard Bill of Lading (B/L) scan copies.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" aria-expanded="false">
+                <span class="faq-question">What are your Minimum Order Quantities (MOQ)?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-body">
+                  <p>Our standard MOQ for dry grains (Rice and Wheat) is <strong>1x20ft FCL (Full Container Load)</strong>, which accommodates <strong>25 to 26 Metric Tonnes</strong>. For Fresh Red Onions, the MOQ is <strong>1x40ft High-Cube Reefer Container</strong> (~29 Metric Tonnes) equipped with continuous temperature and humidity data-logging. We routinely manage recurring multi-container contracts ranging from <strong>500 MT to 5,000+ MT</strong> monthly.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" aria-expanded="false">
+                <span class="faq-question">Can you provide customized packaging and buyer private labeling?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-body">
+                  <p>Yes, absolutely. We provide OEM private-label packaging customized to buyer branding. Options include <strong>BOPP printed bags, laminated woven Polypropylene (PP) bags, traditional food-grade Jute sacks, and non-woven breathable bags</strong> in 5kg, 10kg, 20kg, 25kg, and 50kg sizes with your corporate artwork, barcode, and multilingual labeling (Arabic, French, Spanish, English).</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="faq-item">
+              <button type="button" class="faq-trigger" aria-expanded="false">
+                <span class="faq-question">What are the typical lead times from contract confirmation to vessel departure?</span>
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+              <div class="faq-content">
+                <div class="faq-body">
+                  <p>Upon receipt of L/C or deposit, standard containerized cargo is graded, packed, palletized, customs cleared, and loaded onboard within <strong>10 to 14 business days</strong>. For urgent spot consignments, our pre-allocated port warehouse inventories at Mundra and JNPT allow vessel loading in as little as <strong>7 days</strong>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GET A QUOTE SECTION ==================== -->
+  <section id="contact" class="quote-section">
+    <div class="w">
+      <div class="quote-card">
+        <div class="quote-layout">
+          <!-- Left Column: Context, Trust & Direct Info -->
+          <div class="quote-info">
+            <span class="eye">Get a quote</span>
+            <h2 class="h quote-title">Tell us what you need.</h2>
+            <p class="mut quote-desc">
+              Share your product, volume, and destination requirements. Our international trade desk will prepare competitive CIF / FOB pricing, specification sheets, and delivery timelines.
+            </p>
+            <ul class="quote-trust-list">
+              <li>
+                <span class="trust-icon">✓</span>
+                <div>
+                  <strong>Guaranteed 24h Response</strong>
+                  <p>Dedicated trade manager assigned to your inquiry.</p>
+                </div>
+              </li>
+              <li>
+                <span class="trust-icon">✓</span>
+                <div>
+                  <strong>Certified Quality Standards</strong>
+                  <p>APEDA, FSSAI &amp; SGS inspection reports with each shipment.</p>
+                </div>
+              </li>
+              <li>
+                <span class="trust-icon">✓</span>
+                <div>
+                  <strong>Flexible Port Deliveries</strong>
+                  <p>Direct shipments from Mundra, JNPT, Kandla &amp; Chennai.</p>
+                </div>
+              </li>
+            </ul>
+            <div class="quote-direct-contact">
+              <span class="contact-label">Prefer to reach out directly?</span>
+              <a href="mailto:contact@rrchemtech.com" class="contact-link">contact@rrchemtech.com</a>
+            </div>
+          </div>
+
+          <!-- Right Column: Clean 2-column Form -->
+          <div class="quote-form-wrap">
+            <form id="quoteForm">
+              <div class="fg-split">
+                <label class="fld">
+                  <span>Full name</span>
+                  <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+                </label>
+                <label class="fld">
+                  <span>Company</span>
+                  <input type="text" id="companyName" name="companyName" placeholder="Company name" required>
+                </label>
+                <label class="fld">
+                  <span>Email address</span>
+                  <input type="email" id="email" name="email" placeholder="name@company.com" required>
+                </label>
+                <label class="fld">
+                  <span>Product</span>
+                  <select id="productSelect" name="product" required>
+                    <option value="" disabled selected>Select commodity</option>
+                    <option value="Rice">Rice (Basmati &amp; Non-Basmati)</option>
+                    <option value="Wheat">Wheat (Milling &amp; Durum)</option>
+                    <option value="Onion">Fresh Onions (Red &amp; Pink)</option>
+                  </select>
+                </label>
+                <label class="fld">
+                  <span>Quantity (tonnes)</span>
+                  <input type="text" id="quantity" name="quantity" placeholder="e.g. 50 MT / FCL" required>
+                </label>
+                <label class="fld">
+                  <span>Destination country</span>
+                  <input type="text" id="destination" name="destination" placeholder="Port / Country" required>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-quote" id="submitBtn">Send Enquiry</button>
+            </form>
+            <div id="formSuccess" style="display:none;margin-top:20px;padding:16px 20px;border-radius:12px;background:rgba(4,120,87,0.35);border:1px solid #D4AF37;color:#FFFFFF">
+              <strong>Thank you!</strong> Your enquiry has been received. Our trade team will respond within 24 hours.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CORPORATE FOOTER ==================== -->
+  <footer class="footer">
+    <div class="w">
+      
+      <!-- 4-Column Main Grid -->
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Profile -->
+        <div class="footer-col col-brand">
+          <a class="brand brand-f" href="#" aria-label="R &amp; R ChemTech home">
+            <img src="images/R&R-ChemTech-Gold-Emblem-final-Logo.png" alt="R &amp; R ChemTech Pvt. Ltd." width="170" height="56">
+          </a>
+          <p class="footer-bio">
+            Premier Indian agro-commodity export enterprise sourcing farmgate staples and connecting international importers with certified quality, competitive CIF/FOB pricing, and dependable seaport logistics.
+          </p>
+          <div class="footer-compliance-tags">
+            <span class="compliance-tag">IEC Registered Exporter</span>
+            <span class="compliance-tag">Govt. of India Recognized</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Export Commodities -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Export Commodities</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#products">1121 Basmati Rice (Raw &amp; Sella)</a></li>
+            <li><a href="#products">Golden Sella &amp; Sugandha Rice</a></li>
+            <li><a href="#products">IR64 &amp; Non-Basmati Parboiled</a></li>
+            <li><a href="#products">Milling Grade &amp; Durum Wheat</a></li>
+            <li><a href="#products">Fresh Nashik Red &amp; Pink Onions</a></li>
+            <li><a href="#products">Bulk FCL Export Packaging</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Supply Chain & Company -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#products">Commodity Portfolio</a></li>
+            <li><a href="#export">4-Step Export Workflow</a></li>
+            <li><a href="#gallery">Farm to Port Journey</a></li>
+            <li><a href="#markets">Markets We Serve</a></li>
+            <li><a href="#why-us">Why R &amp; R ChemTech</a></li>
+            <li><a href="#about">Company Vision &amp; Mission</a></li>
+            <li><a href="#faq">Trade FAQ</a></li>
+            <li><a href="#contact">Request CIF / FOB Quote</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Trade Desk & Dispatch Seaports -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Trade Desk &amp; Ports</h4>
+          <div class="footer-contact-block">
+            <p class="contact-line">
+              <span class="c-icon">📍</span>
+              <span>Navi Mumbai, Maharashtra, India</span>
+            </p>
+            <p class="contact-line">
+              <span class="c-icon">📞</span>
+              <a href="https://wa.me/919065413960" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">+91 90654 13960</a>
+            </p>
+            <p class="contact-line">
+              <span class="c-icon">✉️</span>
+              <a href="mailto:contact@rrchemtech.com">contact@rrchemtech.com</a>
+            </p>
+          </div>
+          <div class="footer-ports">
+            <span class="ports-title">Loading Seaports:</span>
+            <p class="ports-text">JNPT (Nhava Sheva) · Mundra · Kandla · Chennai</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust & Accreditation Strip -->
+      <div class="footer-trust-strip">
+        <div class="trust-badge-item">
+          <span class="badge-icon">🏛️</span>
+          <div class="badge-text">
+            <strong>APEDA Registered</strong>
+            <span>Agro Export Authority</span>
+          </div>
+        </div>
+        <div class="trust-badge-item">
+          <span class="badge-icon">🌿</span>
+          <div class="badge-text">
+            <strong>FSSAI Certified</strong>
+            <span>Food Safety Standards</span>
+          </div>
+        </div>
+        <div class="trust-badge-item">
+          <span class="badge-icon">🔍</span>
+          <div class="badge-text">
+            <strong>SGS Inspection</strong>
+            <span>Pre-Shipment Quality</span>
+          </div>
+        </div>
+        <div class="trust-badge-item">
+          <span class="badge-icon">🚢</span>
+          <div class="badge-text">
+            <strong>Incoterms 2020</strong>
+            <span>CIF / FOB / CFR Delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Sub-Footer Bar -->
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          © 2026 R &amp; R ChemTech Pvt. Ltd. All rights reserved.
+        </div>
+        <div class="footer-origin">
+          Exporting from India to 25+ Global Seaports 🇮🇳 ➔ 🌍
+        </div>
+        <div class="footer-legal-links">
+          <a href="#contact">Terms of Trade</a>
+          <a href="#about">Privacy Policy</a>
+          <a href="#contact">Compliance</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</div>
+
+<!-- ==================== EXPORT DESK QUICK QUOTE MODAL ==================== -->
+<div id="quickQuoteModal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-backdrop"></div>
+  <div class="modal-dialog">
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <div class="modal-header-text">
+        <span class="eye">Fast-Track Trade Desk</span>
+        <h3 class="h modal-title" id="modalTitle">Request Spot CIF / FOB Quote</h3>
+        <p class="modal-subtitle">Direct pricing from our export trade desk within 2 hours.</p>
+      </div>
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Commodity Selector Pills -->
+    <div class="modal-pills-label">Selected Commodity:</div>
+    <div class="modal-commodity-pills" role="radiogroup" aria-label="Commodity selector">
+      <button type="button" class="pill-btn active" data-value="Rice" role="radio" aria-checked="true">
+        <span class="pill-dot">●</span> Rice
+      </button>
+      <button type="button" class="pill-btn" data-value="Wheat" role="radio" aria-checked="false">
+        <span class="pill-dot">●</span> Wheat
+      </button>
+      <button type="button" class="pill-btn" data-value="Onion" role="radio" aria-checked="false">
+        <span class="pill-dot">●</span> Onion
+      </button>
+    </div>
+
+    <!-- Quick Form -->
+    <form id="quickQuoteForm" class="modal-form">
+      <input type="hidden" id="modalCommodityInput" name="commodity" value="Rice">
+      
+      <div class="modal-grid">
+        <label class="modal-field">
+          <span>Destination Port &amp; Country *</span>
+          <input type="text" id="modalDestination" name="destination" placeholder="e.g. Jebel Ali / Rotterdam" required>
+        </label>
+
+        <label class="modal-field">
+          <span>Target Volume (MT) *</span>
+          <input type="text" id="modalQuantity" name="quantity" placeholder="e.g. 50 MT / 2x20ft FCL" required>
+        </label>
+      </div>
+
+      <div class="modal-grid">
+        <label class="modal-field">
+          <span>Company Name</span>
+          <input type="text" id="modalCompany" name="company" placeholder="e.g. Al-Barakah Foods LLC">
+        </label>
+
+        <label class="modal-field">
+          <span>Contact (WhatsApp / Email) *</span>
+          <input type="text" id="modalContact" name="contact" placeholder="+971... or trade@company.com" required>
+        </label>
+      </div>
+
+      <div class="modal-meta-row">
+        <span class="modal-meta-tag">⚡ Spot CIF / FOB pricing</span>
+        <span class="modal-meta-tag">🚢 Direct Port Dispatch (JNPT / Mundra)</span>
+        <span class="modal-meta-tag">📜 SGS &amp; APEDA certified</span>
+      </div>
+
+      <div class="modal-actions">
+        <button type="submit" class="btn modal-submit-btn" id="modalSubmitBtn">
+          <span>Send Fast-Track Inquiry</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </form>
+
+    <!-- Success Confirmation State inside Modal -->
+    <div id="modalSuccessState" class="modal-success" style="display:none;">
+      <div class="success-icon-wrap">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+      <h4 class="h success-title">Enquiry Dispatched to Trade Desk!</h4>
+      <p class="success-desc">
+        Thank you. Our international sales desk is analyzing current vessel schedules and spot freight for your inquiry. A senior trade executive will contact you via WhatsApp / Email shortly.
+      </p>
+      <button type="button" class="btn btn2 modal-done-btn" id="modalDoneBtn">Done</button>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
+<a href="https://wa.me/919065413960?text=Hello%20R%26R%20ChemTech,%20I%20have%20an%20export%20enquiry." 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   class="floating-whatsapp" 
+   aria-label="Chat with R &amp; R ChemTech Trade Desk on WhatsApp"
+   id="floatingWhatsApp">
+  <div class="fwa-tooltip">
+    <span class="fwa-status-dot"></span>
+    <span class="fwa-tooltip-text">Chat with Trade Desk</span>
+  </div>
+  <div class="fwa-btn">
+    <svg class="fwa-icon" viewBox="0 0 32 32" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M16 2C8.268 2 2 8.268 2 16c0 2.593.702 5.023 1.925 7.108L2.5 29.5l6.59-1.398A13.928 13.928 0 0 0 16 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25.5a11.43 11.43 0 0 1-5.83-1.602l-.418-.248-4.327.918.924-4.22-.271-.43A11.446 11.446 0 0 1 4.5 16C4.5 9.659 9.659 4.5 16 4.5S27.5 9.659 27.5 16 22.341 27.5 16 27.5zm6.27-8.38c-.344-.172-2.036-1.005-2.351-1.12-.315-.115-.545-.172-.774.172-.23.344-.888 1.12-1.088 1.35-.2.23-.401.258-.745.086-.344-.172-1.453-.536-2.768-1.708-1.024-.913-1.715-2.042-1.916-2.386-.2-.344-.021-.53.151-.702.155-.154.344-.401.516-.602.172-.2.23-.344.344-.573.115-.23.057-.43-.029-.602-.086-.172-.774-1.864-1.06-2.552-.279-.67-.562-.579-.774-.59-.2-.01-.43-.013-.66-.013-.23 0-.602.086-.917.43-.315.344-1.204 1.176-1.204 2.868 0 1.692 1.233 3.326 1.405 3.556.172.23 2.427 3.706 5.879 5.197.821.355 1.462.567 1.961.726.824.262 1.574.225 2.167.137.661-.099 2.036-.832 2.322-1.635.287-.803.287-1.491.201-1.635-.086-.143-.315-.23-.659-.401z" fill="#FFFFFF"/>
+    </svg>
+    <span class="fwa-ping"></span>
+  </div>
+</a>
+
+<script src="js/main.js?v=2.5"></script>
+</body>
+</html>
